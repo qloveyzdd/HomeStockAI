@@ -12,7 +12,8 @@
 
 ### Validated
 
-(None yet - ship to validate)
+- Phase 1 validated the account bootstrap and mobile-first skeleton: test-account login, household setup, settings editing, and item tracking management are now real, not planned.
+- Validated in Phase 1: `HOME-01`, `HOME-02`, `ITEM-01`, `ITEM-02`, `ITEM-03`.
 
 ### Active
 
@@ -81,4 +82,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-14 after initialization*
+*Last updated: 2026-04-14 after Phase 1 completion*

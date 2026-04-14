@@ -7,14 +7,14 @@
 
 ### Household Setup
 
-- [ ] **HOME-01**: 用户可以创建家庭档案，填写家庭人数、宠物/婴幼儿情况、储物空间等级、价格敏感度、囤货偏好、常购平台和提醒容忍度
-- [ ] **HOME-02**: 用户可以在设置页修改家庭档案，更新后的信息会参与后续库存估算和提醒策略
+- [x] **HOME-01**: 用户可以创建家庭档案，填写家庭人数、宠物/婴幼儿情况、储物空间等级、价格敏感度、囤货偏好、常购平台和提醒容忍度
+- [x] **HOME-02**: 用户可以在设置页修改家庭档案，更新后的信息会参与后续库存估算和提醒策略
 
 ### Item Management
 
-- [ ] **ITEM-01**: 用户可以从受支持的高频消耗品类中添加追踪物品
-- [ ] **ITEM-02**: 用户可以为追踪物品设置品牌、常用规格、单位、安全库存天数、首选平台和是否接受平替
-- [ ] **ITEM-03**: 用户可以停用或重新启用某个追踪物品，且不会丢失该物品的历史记录
+- [x] **ITEM-01**: 用户可以从受支持的高频消耗品类中添加追踪物品
+- [x] **ITEM-02**: 用户可以为追踪物品设置品牌、常用规格、单位、安全库存天数、首选平台和是否接受平替
+- [x] **ITEM-03**: 用户可以停用或重新启用某个追踪物品，且不会丢失该物品的历史记录
 - [ ] **ITEM-04**: 用户可以在物品列表中查看每个追踪物品的预计剩余天数、当前建议、最近购买时间和价格状态
 
 ### Purchase Records
@@ -105,11 +105,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HOME-01 | Phase 1 | Pending |
-| HOME-02 | Phase 1 | Pending |
-| ITEM-01 | Phase 1 | Pending |
-| ITEM-02 | Phase 1 | Pending |
-| ITEM-03 | Phase 1 | Pending |
+| HOME-01 | Phase 1 | Completed |
+| HOME-02 | Phase 1 | Completed |
+| ITEM-01 | Phase 1 | Completed |
+| ITEM-02 | Phase 1 | Completed |
+| ITEM-03 | Phase 1 | Completed |
 | RECD-01 | Phase 2 | Pending |
 | RECD-02 | Phase 2 | Pending |
 | RECD-03 | Phase 2 | Pending |
@@ -146,4 +146,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-14 after initial definition*
+*Last updated: 2026-04-14 after Phase 1 completion*

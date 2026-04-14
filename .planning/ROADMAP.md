@@ -10,7 +10,7 @@
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions if needed later
 
-- [ ] **Phase 1: Product Skeleton & Household Setup** - 搭好前后端骨架，完成家庭档案与追踪物品基础能力
+- [x] **Phase 1: Product Skeleton & Household Setup** - 搭好前后端骨架，完成家庭档案与追踪物品基础能力
 - [ ] **Phase 2: Records & Inventory Baseline** - 打通购买记录录入和库存估算闭环
 - [ ] **Phase 3: Price Tracking Baseline** - 接入首个价格来源，形成价格快照与历史比较能力
 - [ ] **Phase 4: Decision Experience** - 生成补货建议，完成首页、列表和详情决策视图
@@ -31,7 +31,7 @@
 Plans:
 - [x] 01-01: 搭建仓库结构、运行时配置、共享 API 约定和本地开发环境
 - [x] 01-02: 实现 household / item 核心模型、迁移和 CRUD API
-- [ ] 01-03: 完成建档流程、设置页和追踪物品管理界面
+- [x] 01-03: 完成建档流程、设置页和追踪物品管理界面
 
 ### Phase 2: Records & Inventory Baseline
 **Goal**: 让用户录入购买记录后，系统可以立即给出库存估算结果
@@ -100,7 +100,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Product Skeleton & Household Setup | 0/3 | Not started | - |
+| 1. Product Skeleton & Household Setup | 3/3 | Complete | 2026-04-14 |
 | 2. Records & Inventory Baseline | 0/3 | Not started | - |
 | 3. Price Tracking Baseline | 0/3 | Not started | - |
 | 4. Decision Experience | 0/3 | Not started | - |

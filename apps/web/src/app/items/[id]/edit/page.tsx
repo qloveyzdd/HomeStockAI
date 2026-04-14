@@ -37,4 +37,3 @@ export default async function EditItemPage({ params }: { params: Promise<{ id: s
     notFound();
   }
 }
-

@@ -32,3 +32,12 @@ class HouseholdItem(Base):
     )
 
     household: Mapped["Household"] = relationship(back_populates="items")
+    purchase_records: Mapped[list["PurchaseRecord"]] = relationship(
+        back_populates="item",
+        cascade="all, delete-orphan",
+    )
+    inventory_state: Mapped["InventoryState"] = relationship(
+        back_populates="item",
+        cascade="all, delete-orphan",
+        uselist=False,
+    )

@@ -1,4 +1,6 @@
-﻿export const SUPPORTED_ITEM_CATEGORIES = [
+﻿import type { InventoryStatus } from "./inventory";
+
+export const SUPPORTED_ITEM_CATEGORIES = [
   "卷纸",
   "抽纸",
   "垃圾袋",
@@ -35,4 +37,15 @@ export type HouseholdItemSummary = {
   specText: string;
   enabled: boolean;
   isCustom: boolean;
+  estimatedRemainingDays: number | null;
+  inventoryStatus: InventoryStatus;
+  lastPurchasedAt: string | null;
+};
+
+export type HouseholdItemDetail = HouseholdItemSummary & {
+  householdId: string;
+  unit: string;
+  safetyStockDays: number;
+  preferredPlatform: string | null;
+  replaceable: boolean;
 };

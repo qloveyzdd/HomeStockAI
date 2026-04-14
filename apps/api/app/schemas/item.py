@@ -1,5 +1,8 @@
 ﻿from __future__ import annotations
 
+from datetime import datetime
+from typing import Literal
+
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -45,3 +48,6 @@ class HouseholdItemResponse(BaseModel):
     replaceable: bool
     enabled: bool
     is_custom: bool
+    estimated_remaining_days: int | None = None
+    inventory_status: Literal["estimated", "estimating", "low_stock", "no_records"] = "no_records"
+    last_purchased_at: datetime | None = None

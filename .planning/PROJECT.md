@@ -14,14 +14,13 @@
 
 - Phase 1 validated the account bootstrap and mobile-first skeleton: test-account login, household setup, settings editing, and item tracking management are now real, not planned.
 - Validated in Phase 1: `HOME-01`, `HOME-02`, `ITEM-01`, `ITEM-02`, `ITEM-03`.
+- Phase 2 validated the purchase-record and inventory baseline: users can add records, review record history, parse pasted order text, and immediately see refreshed inventory states.
+- Validated in Phase 2: `RECD-01`, `RECD-02`, `RECD-03`, `INVT-01`, `INVT-02`, `INVT-03`, `INVT-04`.
 
 ### Active
 
-- [ ] 用户可以建立家庭档案，为消耗速度、安全库存和提醒策略提供初始参数
-- [ ] 用户可以添加并管理家庭高频消耗品，只追踪主动启用的物品
-- [ ] 用户可以录入购买记录，MVP 先支持手动录入和订单文本粘贴解析
-- [ ] 系统可以根据购买记录和家庭画像估算库存余量、剩余天数和置信度
 - [ ] 系统可以持续跟踪价格并结合库存状态判断当前是否值得买
+- [ ] 新的购买记录保存后，系统可以自动刷新购买建议
 - [ ] 系统可以输出“现在买、尽快补货、继续观察、先等等、暂时别买”等建议
 - [ ] 用户可以通过“我刚买了、家里还有、用得更快、用得更慢、不再提醒”等反馈修正系统判断
 - [ ] 首页可以稳定展示“快见底、现在值得买、先别买”三类决策结果
@@ -82,4 +81,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-14 after Phase 1 completion*
+*Last updated: 2026-04-15 after Phase 2 completion*

@@ -11,7 +11,7 @@
 - Decimal phases (2.1, 2.2): Urgent insertions if needed later
 
 - [x] **Phase 1: Product Skeleton & Household Setup** - 搭好前后端骨架，完成家庭档案与追踪物品基础能力
-- [ ] **Phase 2: Records & Inventory Baseline** - 打通购买记录录入和库存估算闭环
+- [x] **Phase 2: Records & Inventory Baseline** - 打通购买记录录入和库存估算闭环
 - [ ] **Phase 3: Price Tracking Baseline** - 接入首个价格来源，形成价格快照与历史比较能力
 - [ ] **Phase 4: Decision Experience** - 生成补货建议，完成首页、列表和详情决策视图
 - [ ] **Phase 5: Feedback & Reminder Hardening** - 用反馈校正模型，并收敛为低打扰提醒系统
@@ -36,7 +36,7 @@ Plans:
 ### Phase 2: Records & Inventory Baseline
 **Goal**: 让用户录入购买记录后，系统可以立即给出库存估算结果
 **Depends on**: Phase 1
-**Requirements**: [RECD-01, RECD-02, RECD-03, RECD-04, INVT-01, INVT-02, INVT-03, INVT-04]
+**Requirements**: [RECD-01, RECD-02, RECD-03, INVT-01, INVT-02, INVT-03, INVT-04]
 **Success Criteria** (what must be TRUE):
   1. 用户可以手动录入购买记录并通过粘贴订单文本生成待确认记录
   2. 购买记录保存后，系统会刷新剩余数量、剩余天数和置信度
@@ -44,9 +44,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: 实现购买记录模型、录入 API、文本解析入口和历史查询
-- [ ] 02-02: 实现库存估算服务、置信度计算和安全库存判断
-- [ ] 02-03: 完成记录录入页、记录历史展示和库存状态展示
+- [x] 02-01: 实现购买记录模型、录入 API、文本解析入口和历史查询
+- [x] 02-02: 实现库存估算服务、置信度计算和安全库存判断
+- [x] 02-03: 完成记录录入页、记录历史展示和库存状态展示
 
 ### Phase 3: Price Tracking Baseline
 **Goal**: 接入至少一个稳定价格来源，为追踪物品建立价格快照与历史比较能力
@@ -66,7 +66,7 @@ Plans:
 ### Phase 4: Decision Experience
 **Goal**: 基于库存、价格和偏好生成建议，并完成面向用户的决策视图
 **Depends on**: Phase 3
-**Requirements**: [ITEM-04, RECO-01, RECO-02, RECO-03, RECO-04, DASH-01, DASH-02, DASH-03, DASH-04]
+**Requirements**: [ITEM-04, RECD-04, RECO-01, RECO-02, RECO-03, RECO-04, DASH-01, DASH-02, DASH-03, DASH-04]
 **Success Criteria** (what must be TRUE):
   1. 首页可以稳定展示“快见底”“现在值得买”“先别买”三类结果
   2. 物品列表和详情页可以展示预计剩余天数、价格状态、当前建议和解释文本
@@ -101,7 +101,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Product Skeleton & Household Setup | 3/3 | Complete | 2026-04-14 |
-| 2. Records & Inventory Baseline | 0/3 | Not started | - |
+| 2. Records & Inventory Baseline | 3/3 | Complete | 2026-04-15 |
 | 3. Price Tracking Baseline | 0/3 | Not started | - |
 | 4. Decision Experience | 0/3 | Not started | - |
 | 5. Feedback & Reminder Hardening | 0/3 | Not started | - |

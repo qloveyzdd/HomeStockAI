@@ -19,17 +19,17 @@
 
 ### Purchase Records
 
-- [ ] **RECD-01**: 用户可以手动添加购买记录，至少包含物品、数量、平台、总价和购买日期
-- [ ] **RECD-02**: 用户可以粘贴订单文本，由系统解析出结构化购买记录并在保存前确认
-- [ ] **RECD-03**: 用户可以在物品详情页查看该物品的购买记录历史
+- [x] **RECD-01**: 用户可以手动添加购买记录，至少包含物品、数量、平台、总价和购买日期
+- [x] **RECD-02**: 用户可以粘贴订单文本，由系统解析出结构化购买记录并在保存前确认
+- [x] **RECD-03**: 用户可以在物品详情页查看该物品的购买记录历史
 - [ ] **RECD-04**: 新的购买记录保存后，系统会自动刷新库存状态和购买建议
 
 ### Inventory Estimation
 
-- [ ] **INVT-01**: 系统可以基于最近 2 到 5 条有效购买记录和家庭档案，估算物品的日均消耗速度
-- [ ] **INVT-02**: 系统可以为每个追踪物品计算预计剩余数量和预计剩余天数
-- [ ] **INVT-03**: 当估算依据不足时，系统可以显示置信度，并以“估算中”弱化展示结果
-- [ ] **INVT-04**: 系统可以基于品类默认值和物品配置，判断某物品是否低于安全库存天数
+- [x] **INVT-01**: 系统可以基于最近 2 到 5 条有效购买记录和家庭档案，估算物品的日均消耗速度
+- [x] **INVT-02**: 系统可以为每个追踪物品计算预计剩余数量和预计剩余天数
+- [x] **INVT-03**: 当估算依据不足时，系统可以显示置信度，并以“估算中”弱化展示结果
+- [x] **INVT-04**: 系统可以基于品类默认值和物品配置，判断某物品是否低于安全库存天数
 
 ### Price Tracking
 
@@ -110,14 +110,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ITEM-01 | Phase 1 | Completed |
 | ITEM-02 | Phase 1 | Completed |
 | ITEM-03 | Phase 1 | Completed |
-| RECD-01 | Phase 2 | Pending |
-| RECD-02 | Phase 2 | Pending |
-| RECD-03 | Phase 2 | Pending |
-| RECD-04 | Phase 2 | Pending |
-| INVT-01 | Phase 2 | Pending |
-| INVT-02 | Phase 2 | Pending |
-| INVT-03 | Phase 2 | Pending |
-| INVT-04 | Phase 2 | Pending |
+| RECD-01 | Phase 2 | Completed |
+| RECD-02 | Phase 2 | Completed |
+| RECD-03 | Phase 2 | Completed |
+| RECD-04 | Phase 4 | Pending |
+| INVT-01 | Phase 2 | Completed |
+| INVT-02 | Phase 2 | Completed |
+| INVT-03 | Phase 2 | Completed |
+| INVT-04 | Phase 2 | Completed |
 | PRIC-01 | Phase 3 | Pending |
 | PRIC-02 | Phase 3 | Pending |
 | PRIC-03 | Phase 3 | Pending |
@@ -146,4 +146,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-04-14*
-*Last updated: 2026-04-14 after Phase 1 completion*
+*Last updated: 2026-04-15 after Phase 2 completion*

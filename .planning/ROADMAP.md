@@ -30,7 +30,7 @@
 
 Plans:
 - [x] 01-01: 搭建仓库结构、运行时配置、共享 API 约定和本地开发环境
-- [ ] 01-02: 实现 household / item 核心模型、迁移和 CRUD API
+- [x] 01-02: 实现 household / item 核心模型、迁移和 CRUD API
 - [ ] 01-03: 完成建档流程、设置页和追踪物品管理界面
 
 ### Phase 2: Records & Inventory Baseline

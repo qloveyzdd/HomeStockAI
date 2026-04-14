@@ -105,11 +105,44 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
+| HOME-01 | Phase 1 | Pending |
+| HOME-02 | Phase 1 | Pending |
+| ITEM-01 | Phase 1 | Pending |
+| ITEM-02 | Phase 1 | Pending |
+| ITEM-03 | Phase 1 | Pending |
+| RECD-01 | Phase 2 | Pending |
+| RECD-02 | Phase 2 | Pending |
+| RECD-03 | Phase 2 | Pending |
+| RECD-04 | Phase 2 | Pending |
+| INVT-01 | Phase 2 | Pending |
+| INVT-02 | Phase 2 | Pending |
+| INVT-03 | Phase 2 | Pending |
+| INVT-04 | Phase 2 | Pending |
+| PRIC-01 | Phase 3 | Pending |
+| PRIC-02 | Phase 3 | Pending |
+| PRIC-03 | Phase 3 | Pending |
+| PRIC-04 | Phase 3 | Pending |
+| ITEM-04 | Phase 4 | Pending |
+| RECO-01 | Phase 4 | Pending |
+| RECO-02 | Phase 4 | Pending |
+| RECO-03 | Phase 4 | Pending |
+| RECO-04 | Phase 4 | Pending |
+| DASH-01 | Phase 4 | Pending |
+| DASH-02 | Phase 4 | Pending |
+| DASH-03 | Phase 4 | Pending |
+| DASH-04 | Phase 4 | Pending |
+| FDBK-01 | Phase 5 | Pending |
+| FDBK-02 | Phase 5 | Pending |
+| FDBK-03 | Phase 5 | Pending |
+| FDBK-04 | Phase 5 | Pending |
+| NOTI-01 | Phase 5 | Pending |
+| NOTI-02 | Phase 5 | Pending |
+| NOTI-03 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 33 total
-- Mapped to phases: 0
-- Unmapped: 33
+- Mapped to phases: 33
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-14*

@@ -1,13 +1,6 @@
 ﻿import type { Metadata } from "next";
-import { Noto_Sans_SC } from "next/font/google";
 
 import "./globals.css";
-
-const notoSansSc = Noto_Sans_SC({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "家补 AI",
@@ -21,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body className={notoSansSc.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,0 +1,19 @@
+﻿{
+  "name": "home-stock-ai",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "packages/shared-types"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace apps/web",
+    "dev:api": "python -m uvicorn app.main:app --reload --app-dir apps/api",
+    "dev:worker": "python -m celery -A worker.celery_app worker --workdir apps/worker --loglevel=info",
+    "dev:infra": "docker compose up -d postgres redis",
+    "db:migrate": "python -m alembic upgrade head --config apps/api/alembic.ini",
+    "db:seed": "python apps/api/scripts/seed_phase1.py",
+    "lint:web": "npm run lint --workspace apps/web",
+    "build:web": "npm run build --workspace apps/web"
+  }
+}
